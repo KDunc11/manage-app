@@ -8,11 +8,11 @@ const setTheme = (theme) => {
 
   if (theme === "dark") {
     html.classList.add("dark")
-    document.body.style.backgroundImage = "url('/bg-tablet-pattern-dark.svg')"
+    document.body.style.backgroundImage = "url('svgs/bg-tablet-pattern-dark.svg')"
     localStorage.setItem("theme", "dark")
   } else {
     html.classList.remove("dark")
-    document.body.style.backgroundImage = "url('/bg-tablet-pattern.svg')"
+    document.body.style.backgroundImage = "url('svgs/bg-tablet-pattern.svg')"
     localStorage.setItem("theme", "light")
   }
 }
